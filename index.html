@@ -2,5 +2,103 @@
 layout: page
 ---
 
-<p>Hello, I'm Matthieu</p>
-<p>or Greep</p>
+<style>
+    @font-face {
+        font-family: Poppins-Thin;
+        src: url('./fonts/Poppins-Thin.ttf');
+    }
+    
+    @keyframes nameAnim {
+        0% {
+            color: chartreuse;
+        }
+        50% {
+            color: green;
+        }
+        100% {
+            color: chartreuse;
+        }
+    }
+    @keyframes headerAnim {
+        from {
+            letter-spacing: 10px;
+        }
+        to {
+            letter-spacing: 0.5px;
+        }
+    }
+    .poppins {
+        font-family: Poppins-Thin;
+        font-size: 1.5em;
+        line-height: 1.2em;
+    }
+    .headerA {
+        animation: headerAnim 2s forwards;
+    }
+    .name {
+        color: chartreuse;
+        animation: nameAnim 6s infinite;
+        animation-delay: 2s;
+    }
+    .sociallinks {
+        color: lightgreen !important;
+        font-size: larger;
+    }
+    @media screen and (prefers-color-scheme: light) {
+        .sociallinks {
+            color: darkgreen !important;
+        }
+    }
+    .divsociallinks a {
+        margin-right: 30px;
+    }
+    .divsociallinks {
+        text-align: center;
+    }
+    .works .row {
+        margin-top: 20px;
+    }
+</style>
+
+<h2 class="headerA poppins" style="text-align: center;">
+    Hello!<br />
+    My name is Matthieu<br />
+    or <span class="name">{{ site.name }}</span>.
+</h2>
+
+<p>
+    My passions are programming, and discorvering new things.
+</p>
+
+<p>
+    I'm currently studying at <a href="http://www.sb-lycee.fr/">Lycée Saint Bénigne at Dijon</a> in software engineering branch.
+</p>
+
+<div class="divsociallinks">
+    <a href="https://github.com/{{ site.footer-links.github }}" target="_blank" class="sociallinks">
+        <i class="fa fa-github"></i>
+        <span>Github</span>
+    </a>
+    <a href="https://twitter.com/{{ site.footer-links.twitter }}" target="_blank" class="sociallinks">
+        <i class="fa fa-twitter"></i>
+        <span>Twitter</span>
+    </a>
+</div>
+
+<h2>My works:</h2>
+
+<div class="works">
+    {% for showcase in site.data.showcases %}
+        <div class="row">
+            {% if showcase.image %}
+                <div class="col-md-4">
+                    <a href="{{ showcase.url }}"><img src="{{ site.baseurl }}/images/{{ showcase.image }}" alt="{{ showcase.title }}"></a>
+                </div>
+            {% endif %}
+            <div class="col-md-8">
+                <h3><a href="{{ showcase.url }}">{{ showcase.title }}</a></h3>
+                <p>{{ showcase.description }}</p>
+            </div>
+        </div>
+    {% endfor %}
+</div>

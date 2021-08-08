@@ -1,0 +1,22 @@
+---
+layout: page
+title: Contact
+permalink: /contact/
+---
+
+<style>
+    h3 div {
+        margin-bottom: 20px;
+    }
+</style>
+
+<h3>
+    {% for contact in site.data.contact %}
+    <div>
+        <a href="{{ contact.link }}"target="_blank">
+            <i class="fa fa-{{ contact.fa-icon }}"></i>
+            <span>{{ contact.title }}</span>
+        </a>
+    </div>
+    {% endfor %}
+</h3>

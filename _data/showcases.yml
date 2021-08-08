@@ -1,0 +1,9 @@
+- title: node-Trackmania.io
+  url: https://github.com/GreepTheSheep/node-trackmania.io
+  description: node-trackmania.io is an API wrapper for the website Trackmania.io, it retuns all the useful informations from the Trackmania API for your Node.js projects
+  image: tmio.png
+
+- title: Arendelle Odyssey
+  url: https://arendelleodyssey.com
+  description: Arendelle Odyssey is a massive collaborative documentary project that seeks to chronicle the state of the Frozen fandom from the drop of the first Frozen II teaser until present day. I worked mainly on the website and on the Discord management bot
+  image: ao.png
