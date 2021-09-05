@@ -8,6 +8,11 @@
   description: Arendelle Odyssey is a massive collaborative documentary project that seeks to chronicle the state of the Frozen fandom from the drop of the first Frozen II teaser until present day. I worked mainly on the website and on the Discord management bot
   image: ao.png
 
+- title: ManiaExchange Randomizer
+  url: https://openplanet.nl/files/124
+  description: An Openplanet plugin used extensively during the FlinkTM Random Map Challenge. The goal is to take a random map of the Trackmania game from the TrackmaniaExchange site and play it directly in the game.
+  image: tmx_rand.png
+
 - title: Android Messages Desktop
   url: https://greep.gq/android-messages/
   description: Android Messages is an app linking your phone and your computer, with this, you can receive instantly SMS/MMS of your phone to your computer, laptop or any other devices.
