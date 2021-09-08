@@ -102,3 +102,15 @@ layout: page
         </div>
     {% endfor %}
 </div>
+
+<h2>They support me:</h2>
+
+<div class="sponsors">
+    <div class="row">
+        {% for sponsor in site.data.sponsors %}
+        <div class="col-md-2">
+            <a href="https://github.com/{{ sponsor.username }}"><img src="{{ sponsor.avatar }}" alt="{{ sponsor.username }} - {{ sponsor.fullname }}" width="100px"></a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
