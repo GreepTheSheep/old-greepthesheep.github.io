@@ -1,3 +1,282 @@
 {
-    "coming": "soon!"
+    "version": "1.7",
+    "announcements": [
+        {
+            "title": "Version 1.7 of MXRandom is out!",
+            "description": "Yeah you read it right! I added an announcements pannel here, so you can read all new features here in game!"
+        }
+    ],
+    "changelog": [
+        {
+            "title": "Version 1.7",
+            "version": "1.7",
+            "changes": [
+                {
+                    "title": "Added the announcements and changelog pannel",
+                    "type": null,
+                    "githubIssueId": null
+                    
+                },
+                {
+                    "title": "Updated new rules on Random Map Challenge and Survival (check the new rules!)",
+                    "type": "rules",
+                    "githubIssueId": null
+                },
+                {
+                    "title": "Disable play/pause button when not in a map",
+                    "type": null,
+                    "githubIssueId": null
+                    
+                },
+                {
+                    "title": "Hide RMC Mode Setting and add buttons Challenge and Survival on the same menu",
+                    "type": null,
+                    "githubIssueId": null
+                    
+                },
+                {
+                    "title": "Added more logging during RMC",
+                    "type": null,
+                    "githubIssueId": null
+                    
+                },
+                {
+                    "title": "Added Show buttons on overlay hidden (requires Openplanet 1.17.5)",
+                    "type": null,
+                    "githubIssueId": null
+                    
+                }
+            ]
+        },
+        {
+            "title": "Version 1.6",
+            "version": "1.6",
+            "changes": [
+                {
+                    "title": "Fix medal names being numbers",
+                    "type": null,
+                    "githubIssueId": null
+                    
+                },
+                {
+                    "title": "Fix medal names being numbers",
+                    "type": null,
+                    "githubIssueId": null
+                },
+                {
+                    "title": "Check if the map is correct while the timer runs (timer is in pause if the map does not match the first map in recent list)",
+                    "type": null,
+                    "githubIssueId": null
+                },
+                {
+                    "title": "Using Ghosts to get the correct time",
+                    "type": "issue",
+                    "githubIssueId": 20
+                },
+                {
+                    "title": "Prevent loading CharacterPilot maps on RMC",
+                    "type": "pull",
+                    "githubIssueId": 24
+                },
+                {
+                    "title": "Remove AT >5min text on survival free skip text",
+                    "type": null,
+                    "githubIssueId": null
+                },
+                {
+                    "title": "Fixed crash by adding a condition on UISequence",
+                    "type": null,
+                    "githubIssueId": null
+                },
+                {
+                    "title": "Add survival total time",
+                    "type": null,
+                    "githubIssueId": null
+                },
+                {
+                    "title": "Add icons on buttons",
+                    "type": null,
+                    "githubIssueId": null
+                },
+                {
+                    "title": "Minor changes ang bug fixes",
+                    "type": null,
+                    "githubIssueId": null
+                }
+            ]
+        },
+        {
+            "title": "Version 1.5",
+            "version": "1.5",
+            "changes": [
+                {
+                    "title": "Add delta time removal on get medals on Next",
+                    "type": null,
+                    "githubIssueId": null
+                },
+                {
+                    "title": "Replace Digital-7 Regular to Digital-7 Monospace",
+                    "type": "issue",
+                    "githubIssueId": 10
+                },
+                {
+                    "title": "Gold medal notification appears now only on Challenge mode",
+                    "type": null,
+                    "githubIssueId": null
+                },
+                {
+                    "title": "Pause timer when skipping the map and adding a pause timer button",
+                    "type": "issue",
+                    "githubIssueId": 14
+                },
+                {
+                    "title": "Fixed typo and color in notifications",
+                    "type": null,
+                    "githubIssueId": null
+                },
+                {
+                    "title": "Change font and size on medals counters to be more clear",
+                    "type": null,
+                    "githubIssueId": null
+                },
+                {
+                    "title": "Remove timer end sound",
+                    "type": null,
+                    "githubIssueId": null
+                },
+                {
+                    "title": "Fixed performance loss causing by currently played map on timer UI",
+                    "type": "issue",
+                    "githubIssueId": 18
+                },
+                {
+                    "title": "Add medal setting for beginners",
+                    "type": "issue",
+                    "githubIssueId": 17
+                }
+            ]
+        },
+        {
+            "title": "Version 1.4.1",
+            "version": "1.4.1",
+            "changes": [
+                {
+                    "title": "Fixed a lot of bugs on the timer on 2020",
+                    "type": null,
+                    "githubIssueId": null
+                }
+            ]
+        },
+        {
+            "title": "Version 1.4",
+            "version": "1.4",
+            "changes": [
+                {
+                    "title": "Added the RMC timer and automatic medals counter. When you got gold, you can skip and add a gold on the counter. When you got AT, it skips automatically (setting enabled by default).",
+                    "type": null,
+                    "githubIssueId": null
+                },
+                {
+                    "title": "Added Random Map Survival timer",
+                    "type": null,
+                    "githubIssueId": null
+                }
+            ]
+        },
+        {
+            "title": "Version 1.3",
+            "version": "1.3",
+            "changes": [
+                {
+                    "title": "Fixed loading Royal maps but it's unsupported. Now it will load only normal race maps",
+                    "type": null,
+                    "githubIssueId": null
+                },
+                {
+                    "title": "Added Minimal window mode, it keeps only the button",
+                    "type": null,
+                    "githubIssueId": null
+                },
+                {
+                    "title": "Added width setting on the window",
+                    "type": null,
+                    "githubIssueId": null
+                }
+            ]
+        },
+        {
+            "title": "Version 1.2.2",
+            "version": "1.2.2",
+            "changes": [
+                {
+                    "title": "Fixed TM2020 UI first letter missing on length and style",
+                    "type": null,
+                    "githubIssueId": null
+                },
+                {
+                    "title": "Removed konami code becauses it causes a lot of problems",
+                    "type": null,
+                    "githubIssueId": null
+                }
+            ]
+        },
+        {
+            "title": "Version 1.2.1",
+            "version": "1.2.1",
+            "changes": [
+                {
+                    "title": "Added map style and map Awards from TMX API to the Recently played maps list",
+                    "type": null,
+                    "githubIssueId": null
+                },
+                {
+                    "title": "Awards count will not be automatically updated, the count is taken from when you add the map to the list!",
+                    "type": null,
+                    "githubIssueId": null
+                }
+            ]
+        },
+        {
+            "title": "Version 1.2",
+            "version": "1.2",
+            "changes": [
+                {
+                    "title": "Added selected map style and length to the UI",
+                    "type": null,
+                    "githubIssueId": null
+                },
+                {
+                    "title": "Add play specific map with its ID",
+                    "type": null,
+                    "githubIssueId": null
+                },
+                {
+                    "title": "Fix bug that TM2020 does not had a play button on recent list",
+                    "type": null,
+                    "githubIssueId": null
+                },
+                {
+                    "title": "Updated search method! Now all parameters (including style and length) will be on the server side",
+                    "type": null,
+                    "githubIssueId": null
+                },
+                {
+                    "title": "Add a secret easy konami code to start searching without opening UI :eyes:",
+                    "type": null,
+                    "githubIssueId": null
+                }
+            ]
+        },
+        {
+            "title": "Version 1.1",
+            "version": "1.1",
+            "changes": [
+                {
+                    "title": "Add a menu, you can now search a map and list recents maps played from here",
+                    "type": null,
+                    "githubIssueId": null
+                }
+            ]
+        }
+    ]
 }
