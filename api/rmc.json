@@ -278,5 +278,23 @@
                 }
             ]
         }
-    ]
+    ],
+    "rules": {
+        "challenge": [
+            "Ghosts other than personal best are not allowed but GPS is allowed (to not give club members an advantage).",
+            "Cam 7 is allowed while the timer runs.",
+            "As soon as you get the Gold medal you are allowed to skip the map.",
+            "If the Author Time (AT) of the map is over 3 minutes, you can skip immediately.",
+            "If physics changes made it impossible to get Gold, skip for free. (e.g. broken PF maps. If a map just got harder, you are not allowed to skip)",
+            "If you have already beaten Gold medal time or AT before (also on own maps), beat the respective time again. It is highly recommended to use a medals window plugin in OpenPlanet to see the medal times.",
+            "You can skip Skin/Mod downloads. (Turning off will not affect since you're in solo and not in server)"
+        ],
+        "survival": [
+            "Ghosts other than personal best are not allowed but GPS is allowed (to not give club members an advantage).",
+            "Cam 7 is allowed while the timer runs.",
+            "If physics changes made it impossible to get Gold, skip for free. (e.g. broken PF maps. If a map just got harder, you are not allowed to skip)",
+            "If you have already beaten Gold medal time or AT before (also on own maps), beat the respective time again. It is highly recommended to use a medals window plugin in OpenPlanet to see the medal times.",
+            "You can skip Skin/Mod downloads. (Turning off will not affect since you're in solo and not in server)"
+        ]
+    }
 }
