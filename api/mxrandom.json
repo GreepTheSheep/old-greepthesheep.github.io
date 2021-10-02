@@ -2,6 +2,7 @@
     "version": "1.7",
     "announcements": [
         {
+            "id" : 1,
             "title": "Version 1.7 of MXRandom is out!",
             "description": "Yeah you read it right! I added an announcements pannel here, so you can read all new features here in game!"
         }
