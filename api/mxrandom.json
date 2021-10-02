@@ -12,14 +12,13 @@
             "version": "1.7",
             "changes": [
                 {
-                    "title": "Added the announcements and changelog pannel",
-                    "type": null,
-                    "githubIssueId": null
-                    
+                    "title": "Added the announcements and changelog panel",
+                    "type": "pull",
+                    "githubIssueId": 28
                 },
                 {
                     "title": "Updated new rules on Random Map Challenge and Survival (check the new rules!)",
-                    "type": "rules",
+                    "type": null,
                     "githubIssueId": null
                 },
                 {
@@ -57,11 +56,6 @@
                     "type": null,
                     "githubIssueId": null
                     
-                },
-                {
-                    "title": "Fix medal names being numbers",
-                    "type": null,
-                    "githubIssueId": null
                 },
                 {
                     "title": "Check if the map is correct while the timer runs (timer is in pause if the map does not match the first map in recent list)",
