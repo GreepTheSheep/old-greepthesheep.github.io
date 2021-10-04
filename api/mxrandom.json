@@ -2,6 +2,11 @@
     "version": "1.7",
     "announcements": [
         {
+            "id" : 2,
+            "title": "Random Map Survival is out of beta!",
+            "description": "In addition to the new MXRandom update, the survival mode has been completely revised.\n\nThe survival mode is a mode that was released on September 9, the goal is to have as much author time as possible, the more you have, the more time you have left. But beware of skips, the more you have, the less time you have left.\n\nDespite some prowess made by some pros (we saw you Scrapie), Flink has decided that it will be a little more complicated.\n\nHere are the new rules for survival mode:\n- We start with a 15 minute timer\n- Each time we complete a map, we gain 3 minutes on the timer\n- But with each skip, we lose 2 minutes\n- We cannot exceed 15 minutes, that means if we are at 14 minutes and we gain 3 minutes, we will not be at 17 minutes but at 15 minutes automatically\n- At each skip we lose 1 minute of its maximum, that means that if we have 1 skip and we win after an author time and the timer is at 13 minutes, we will not be at 15 but at 14. For 2 skips we will be at 13 minutes, 3 skips 12 minutes etc... This will give us a total of 15 skips maximum on a whole survival run.\n- In order not to put you in trouble, if the timer is below 2 minutes and you want to skip, you will automatically return to 2 minutes of remaining time.\n\nAs you have seen in the title. The survival mode is out of its beta mode, the scoreboard has been reset.\n\n## Good Luck and Have Fun!"
+        },
+        {
             "id" : 1,
             "title": "Version 1.7 of MXRandom is out!",
             "description": "Yeah you read it right! I added an announcements pannel here, so you can read all new features here in game!"
