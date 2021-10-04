@@ -23,6 +23,12 @@
                     "githubIssueId": null
                 },
                 {
+                    "title": "Removing Arena maps from search (Also called 'Police Chase', a new mode released on the Playground Club!)",
+                    "type": "issue",
+                    "githubIssueId": 29
+                    
+                },
+                {
                     "title": "Disable play/pause button when not in a map",
                     "type": null,
                     "githubIssueId": null
@@ -41,10 +47,24 @@
                     
                 },
                 {
-                    "title": "Added Show buttons on overlay hidden (requires Openplanet 1.19.7)",
+                    "title": "Added Show buttons on overlay hidden (requires at least Openplanet 1.20.0)",
                     "type": null,
                     "githubIssueId": null
-                    
+                },
+                {
+                    "title": "Added Dev Mode (if the plugin is in a folder and not in a .op file)",
+                    "type": null,
+                    "githubIssueId": null
+                },
+                {
+                    "title": "Fixing a rare crash in UI",
+                    "type": null,
+                    "githubIssueId": null
+                },
+                {
+                    "title": "Minor bug fixes",
+                    "type": null,
+                    "githubIssueId": null
                 }
             ]
         },
