@@ -1,5 +1,5 @@
 {
-    "version": "1.7",
+    "version": "1.7.1",
     "announcements": [
         {
             "id" : 2,
@@ -13,6 +13,17 @@
         }
     ],
     "changelog": [
+        {
+            "title": "Version 1.7.1",
+            "version": "1.7.1",
+            "changes": [
+                {
+                    "title": "Fixing start timer after the 3,2,1 countdown on Next",
+                    "type": "pull",
+                    "githubIssueId": 31
+                }
+            ]
+        },
         {
             "title": "Version 1.7",
             "version": "1.7",
