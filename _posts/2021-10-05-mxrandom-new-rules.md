@@ -26,6 +26,12 @@ Here are the new rules for survival mode:
 - At each skip we lose 1 minute of its maximum, that means that if we have 1 skip and we win after an author time and the timer is at 13 minutes, we will not be at 15 but at 14. For 2 skips we will be at 13 minutes, 3 skips 12 minutes etc... This will give us a total of 15 skips maximum on a whole survival run.
 - In order not to put you in trouble, if the timer is below 2 minutes and you want to skip, you will automatically return to 2 minutes of remaining time.
 
+If you're lost, here's a video by Flink to explain
+
+<iframe width="1268" height="713" src="https://www.youtube.com/embed/sFgqzVOIEuY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Link to the video](https://www.youtube.com/watch?v=sFgqzVOIEuY)
+
 As you have seen in the title. The survival mode is out of its beta mode, the scoreboard has been reset.
 
 ## Good Luck and Have Fun!
