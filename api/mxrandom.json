@@ -1,5 +1,5 @@
 {
-    "version": "1.7.1",
+    "version": "1.7.2",
     "announcements": [
         {
             "id" : 2,
@@ -13,6 +13,17 @@
         }
     ],
     "changelog": [
+        {
+            "title": "Version 1.7.2",
+            "version": "1.7.2",
+            "changes": [
+                {
+                    "title": "Fixing a RMC rule",
+                    "type": null,
+                    "githubIssueId": null
+                }
+            ]
+        },
         {
             "title": "Version 1.7.1",
             "version": "1.7.1",
