@@ -324,7 +324,7 @@
         ],
         "survival": [
             "**Finish as many Author times before the timer runs out!**",
-            "**An author time adds 3 minutes to the timer. Skipping costs 2 minutes.**",
+            "**An author time adds 3 minutes to the timer.**",
             "**Maximum timer is set at 15 minutes. Skipping removes one minute to its maximum.**",
             "If the map has an impossible Author time, you can use the free skip. (e.g. broken PF maps or cheated validation.)",
             "Ghosts other than personal best are not allowed but GPS is allowed (to not give club members an advantage).",
