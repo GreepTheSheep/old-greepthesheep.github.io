@@ -1,5 +1,5 @@
 {
-    "version": "1.7.3",
+    "version": "1.7.4",
     "announcements": [
         {
             "id" : 2,
@@ -8,6 +8,27 @@
         }
     ],
     "changelog": [
+        {
+            "title": "Version 1.7.4",
+            "version": "1.7.4",
+            "changes": [
+                {
+                    "title": "Remove skip notification on first map if show skip is disabled",
+                    "type": "issue",
+                    "githubIssueId": 33
+                },
+                {
+                    "title": "Remove skip button if goal time got",
+                    "type": "issue",
+                    "githubIssueId": 34
+                },
+                {
+                    "title": "Remove the 'open the overlay' text when got a goal medal with the auto skip disabled",
+                    "type": null,
+                    "githubIssueId": null
+                }
+            ]
+        },
         {
             "title": "Version 1.7.3",
             "version": "1.7.3",
