@@ -17,6 +17,18 @@ html {
   font-size: 100%;
 }
 
+#background {
+    pointer-events: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.background-front {
+    background-color: rgba(37, 37, 37, 0.3);
+}
+
+
 body {
 	background: $white;
   font: 18px/1.4 $helvetica;
@@ -30,11 +42,22 @@ body {
     }
 }
 
+.hero.is-fullheight {
+    min-height: 100vh;
+}
+.hero {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .container {
   margin: 0 auto;
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+  position: relative;
 }
 
 h1, h2, h3, h4, h5, h6 {
