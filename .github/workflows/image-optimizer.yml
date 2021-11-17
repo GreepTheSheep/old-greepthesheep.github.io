@@ -1,0 +1,24 @@
+name: Image optimizer
+on:
+  pull_request:
+    branches:
+      - master
+    paths:
+      - '**.jpg'
+      - '**.jpeg'
+      - '**.png'
+      - '**.gif'
+      - '**.webp'
+
+jobs:
+  optimize:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Optimize images
+        uses: calibreapp/webp-optimizer@master
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
