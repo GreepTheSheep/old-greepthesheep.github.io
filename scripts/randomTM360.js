@@ -13,11 +13,13 @@ async function generate360(){
     const imagesJSON = await fetch360ImagesJSON(),
         map = randomItem(imagesJSON.images),
         mapNameElement = document.getElementById("backgroundMapName"),
-        backgroundElement = document.getElementById("backgroundSky");
+        mapLinkElement = document.getElementById("backgroundMapLink"),
+        backgroundElement = document.getElementById("backgroundSky"),
+        mxURL = map.game == "tm2020" ? "trackmania.exchange" : "tm.mania.exchange";
 
-    console.log(map);
     mapNameElement.innerText = map.name + " by " + map.author;
     backgroundElement.setAttribute("src", imagesJSON.basePath + map.path);
+    backgroundElement.setAttribute("href", "https://"+mxURL+"/maps/"+map.mxID);
 }
 
 init();
