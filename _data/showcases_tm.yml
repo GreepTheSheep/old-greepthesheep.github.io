@@ -1,5 +1,5 @@
 - title: node-Trackmania.io
-  url: https://github.com/GreepTheSheep/node-trackmania.io
+  url: https://tmio.greep.gq/
   description: node-trackmania.io is an API wrapper for the website Trackmania.io, it retuns all the useful informations from the Trackmania API for your Node.js projects
   image: tmio.png
 
