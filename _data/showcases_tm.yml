@@ -1,0 +1,9 @@
+- title: node-Trackmania.io
+  url: https://github.com/GreepTheSheep/node-trackmania.io
+  description: node-trackmania.io is an API wrapper for the website Trackmania.io, it retuns all the useful informations from the Trackmania API for your Node.js projects
+  image: tmio.png
+
+- title: ManiaExchange Randomizer
+  url: https://openplanet.nl/files/124
+  description: An Openplanet plugin used extensively during the FlinkTM Random Map Challenge. The goal is to take a random map of the Trackmania game from the TrackmaniaExchange site and play it directly in the game.
+  image: tmx_rand.png

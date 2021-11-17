@@ -4,4 +4,18 @@ title: Trackmania Projects
 permalink: /trackmania/
 ---
 
-Coming soon
+<div class="works">
+    {% for showcase in site.data.showcases_tm %}
+        <div class="row">
+            {% if showcase.image %}
+                <div class="col-md-4">
+                    <a href="{{ showcase.url }}"><img src="{{ site.baseurl }}/images/{{ showcase.image }}" alt="{{ showcase.title }}" width="200px"></a>
+                </div>
+            {% endif %}
+            <div class="col-md-8">
+                <h3><a href="{{ showcase.url }}">{{ showcase.title }}</a></h3>
+                <p>{{ showcase.description }}</p>
+            </div>
+        </div>
+    {% endfor %}
+</div>

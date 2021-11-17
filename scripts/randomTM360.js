@@ -19,7 +19,7 @@ async function generate360(){
 
     mapNameElement.innerText = map.name + " by " + map.author;
     backgroundElement.setAttribute("src", imagesJSON.basePath + map.path);
-    backgroundElement.setAttribute("href", "https://"+mxURL+"/maps/"+map.mxID);
+    mapLinkElement.setAttribute("href", "https://"+mxURL+"/maps/"+map.mxID);
 }
 
 init();
