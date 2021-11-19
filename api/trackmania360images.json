@@ -7,6 +7,13 @@
             "path": "suburia2.webp",
             "name": "SUBURIA 2",
             "author": "htimh1"
+        },
+        {
+            "game": "tm2",
+            "mxID": 42034,
+            "path": "tm2s_a01.webp",
+            "name": "Stadium A01",
+            "author": "Ubisoft Nadeo"
         }
     ]
 }
