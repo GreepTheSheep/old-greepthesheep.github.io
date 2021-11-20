@@ -14,6 +14,41 @@
             "path": "tm2s_a01.webp",
             "name": "Stadium A01",
             "author": "Ubisoft Nadeo"
+        },
+        {
+            "game": "tm2",
+            "mxID": 179216,
+            "path": "tm2s_satelitedelivery.webp",
+            "name": "CCP#12 - [PF] Satelite Ðelivery",
+            "author": "Waypoint Mapping"
+        },
+        {
+            "game": "tm2",
+            "mxID": null,
+            "path": "maniaplanet_mainmenu.webp",
+            "name": "ManiaPlanet Main Menu",
+            "author": "Ubisoft Nadeo"
+        },
+        {
+            "game": "tm2",
+            "mxID": 29517,
+            "path": "tm2s_technicker.webp",
+            "name": "Tech Nicker",
+            "author": "Racho"
+        },
+        {
+            "game": "tm2",
+            "mxID": 129589,
+            "path": "tm2s_eleumlondor.webp",
+            "name": "Eleum Londor",
+            "author": "v.neck"
+        },
+        {
+            "game": "tm2",
+            "mxID": 53845,
+            "path": "tm2s_forumhadriani.webp",
+            "name": "Forum Hadriani",
+            "author": "vklf"
         }
     ]
 }
