@@ -1,5 +1,5 @@
 - title: Trackmania
-  url: https://greep.gq/trackmania/
+  url: /trackmania
   description: I've done some works with Trackmania, I've made a few plugins and extensions for Trackmania with Openplanet, and some libraries with Trackmania.io.
   image: tm.png
 
@@ -9,6 +9,6 @@
   image: ao.png
 
 - title: Android Messages Desktop
-  url: https://greep.gq/android-messages/
+  url: /android-messages
   description: Android Messages is an app linking your phone and your computer, with this, you can receive instantly SMS/MMS of your phone to your computer, laptop or any other devices.
   image: android-messages.png
