@@ -34,56 +34,62 @@
         }
     </style>
     <script src="/scripts/randomTM360.js" defer></script>
+    <script src="/scripts/360dimBG.js" defer></script>
   </head>
 
   <body>
-    <div id="background">
-        <a-scene embedded vr-mode-ui="enabled: false">
-            <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; dur: 180000; easing: linear; loop: true; dir: alternate;">
-                <a-sky id="backgroundSky"></a-sky>
-            </a-entity>
-            <a-entity camera=""></a-entity>
-        </a-scene>
-    </div>
-    <div id="background" class="background-front"></div>
-    
-    <div class="wrapper-masthead">
-    <div class="container">
-        <header class="masthead clearfix">
-        <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
-        <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
+      <section id="bgSection">
+        <div id="background">
+            <a-scene embedded vr-mode-ui="enabled: false">
+                <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; dur: 180000; easing: linear; loop: true; dir: alternate;">
+                    <a-sky id="backgroundSky"></a-sky>
+                </a-entity>
+                <a-entity camera=""></a-entity>
+            </a-scene>
         </div>
-
-        <nav>
-            <a href="{{ site.baseurl }}/">Home</a>
-            <a href="https://linktr.ee/Greep" target="_blank">Links</a>
-            <a href="{{ site.baseurl }}/blog">Blog</a>
-            <a href="{{ site.baseurl }}/contact">Contact</a>
-        </nav>
-        </header>
-    </div>
-    </div>
-
-    <div id="main" role="main" class="container">
-    {{ content }}
-    </div>
-
-    <div class="wrapper-footer">
-    <div class="container">
-        <footer class="footer">
-        {% include svg-icons.html %}
-        <br />
-        <a id="backgroundMapLink"><i class="fa fa-map" aria-hidden="true"></i> <span id="backgroundMapName"></span></a> <i id="refresh360" class="fa fa-refresh" aria-hidden="true"></i>
-        <br />
-        <br />
-        <a href="https://openplanet.nl/files/117"><i class="fa fa-camera" aria-hidden="true"></i> Screenshooter by DergnNamedSkye for <span style="color: #FF309A;"><i class="fa fa-heartbeat" aria-hidden="true"></i></span> Openplanet</a>
-        <br />
-        <a href="https://aframe.io/"><i class="fa fa-plug" aria-hidden="true"></i> A-frame</a>
-        </footer>
-    </div>
-    </div>
+      </section>
+      
+      <section id="fgSection">
+        <div id="background" class="background-front"></div>
+    
+        <div class="wrapper-masthead">
+        <div class="container">
+            <header class="masthead clearfix">
+            <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+    
+            <div class="site-info">
+                <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+                <p class="site-description">{{ site.description }}</p>
+            </div>
+    
+            <nav>
+                <a href="{{ site.baseurl }}/">Home</a>
+                <a href="https://linktr.ee/Greep" target="_blank">Links</a>
+                <a href="{{ site.baseurl }}/blog">Blog</a>
+                <a href="{{ site.baseurl }}/contact">Contact</a>
+            </nav>
+            </header>
+        </div>
+        </div>
+    
+        <div id="main" role="main" class="container">
+        {{ content }}
+        </div>
+    
+        <div class="wrapper-footer">
+        <div class="container">
+            <footer class="footer">
+            {% include svg-icons.html %}
+            <br />
+            <a id="backgroundMapLink"><i class="fa fa-map" aria-hidden="true"></i> <span id="backgroundMapName"></span></a> <i id="refresh360" class="fa fa-refresh" aria-hidden="true"></i>
+            <br />
+            <br />
+            <a href="https://openplanet.nl/files/117"><i class="fa fa-camera" aria-hidden="true"></i> Screenshooter by DergnNamedSkye for <span style="color: #FF309A;"><i class="fa fa-heartbeat" aria-hidden="true"></i></span> Openplanet</a>
+            <br />
+            <a href="https://aframe.io/"><i class="fa fa-plug" aria-hidden="true"></i> A-frame</a>
+            </footer>
+        </div>
+        </div>
+      </section>
   </body>
 </html>
