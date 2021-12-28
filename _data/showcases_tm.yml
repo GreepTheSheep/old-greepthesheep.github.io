@@ -7,3 +7,8 @@
   url: https://openplanet.nl/files/124
   description: An Openplanet plugin used extensively during the FlinkTM Random Map Challenge. The goal is to take a random map of the Trackmania game from the TrackmaniaExchange site and play it directly in the game.
   image: tmx_rand.png
+
+- title: ManiaExchange Menu
+  url: https://openplanet.nl/files/154
+  description: An Openplanet plugin that displays all the maps from the ManiaExchange network.
+  image: tmx.png
