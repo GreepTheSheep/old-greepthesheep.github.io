@@ -5,6 +5,11 @@
             "id" : 3,
             "title": "Some minor rule changes",
             "description": "Lots of Openplanet plugins have been released lately. But some are or can be behaved as additional help. We are therefore going to ban some Openplanet plugins from the challenge.\nThe only plugin that we are currently going to ban is the [Predictor](https://openplanet.nl/files/160), the reasons for this ban are simple: This plugin predicts your time on finish, but it will help you a lot if you have the author time even before you have the last checkpoint, which gives you a phenomenal lead.\nWe hope you will understand this choice."
+        },
+        {
+            "id" : 4,
+            "title": "Happy new year!",
+            "description": "We wish you all a Happy New Year! The plugin will have some changes in the next few months: We will try to optimize this plugin as well as possible. In addition, ManiaEchange has been improved and, you may have noticed, the map switch became faster and faster. We hope you'll like it :)"
         }
     ],
     "changelog": [
