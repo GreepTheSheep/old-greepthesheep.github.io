@@ -2,9 +2,9 @@
     "version": "1.7.4",
     "announcements": [
         {
-            "id" : 2,
-            "title": "Random Map Survival is out of beta!",
-            "description": "In addition to the new MXRandom update, the survival mode has been completely revised.\n\n [Link to the video](https://www.youtube.com/watch?v=sFgqzVOIEuY) The survival mode is a mode that was released on September 9, the goal is to have as much author time as possible, the more you have, the more time you have left. But beware of skips, the more you have, the less time you have left.\n\nDespite some prowess made by some pros (we saw you Scrapie), Flink has decided that it will be a little more complicated.\n\nHere are the new rules for survival mode:\n- We start with a 15 minute timer\n- Each time we complete a map with an Author time, we gain 3 minutes on the timer\n- But with each skip, we lose 2 minutes\n- We cannot exceed 15 minutes, that means if we are at 14 minutes and we gain 3 minutes, we will not be at 17 minutes but at 15 minutes automatically\n- At each skip we lose 1 minute of its maximum, that means that if we have 1 skip and we win after an author time and the timer is at 13 minutes, we will not be at 15 but at 14. For 2 skips we will be at 13 minutes, 3 skips 12 minutes etc... This will give us a total of 15 skips maximum on a whole survival run.\n- In order not to put you in trouble, if the timer is below 2 minutes and you want to skip, you will automatically return to 2 minutes of remaining time (if the maximum is not below 2 minutes).\n\nAs you have seen in the title. The survival mode is out of its beta mode, the scoreboard has been reset.\n\n## Good Luck and Have Fun!"
+            "id" : 3,
+            "title": "Some minor rule changes",
+            "description": "Lots of Openplanet plugins have been released lately. But some are or can be behaved as additional help. We are therefore going to ban some Openplanet plugins from the challenge.\nThe only plugin that we are currently going to ban is the [Predictor](https://openplanet.nl/files/160), the reasons for this ban are simple: This plugin predicts your time on finish, but it will help you a lot if you have the author time even before you have the last checkpoint, which gives you a phenomenal lead.\nWe hope you will understand this choice."
         }
     ],
     "changelog": [
@@ -363,6 +363,7 @@
             "Ghosts other than personal best are not allowed but GPS is allowed (to not give club members an advantage).",
             "Cam 7 is allowed while the timer runs.",
             "If you have already beaten Gold medal time or AT before (also on own maps), beat the respective time again. It is highly recommended to use a medals window plugin in Openplanet to see the medal times. The checkpoint counter plugin is also allowed.",
+            "**Predictor plugin for Openplanet is forbidden**",
             "You can skip Skin/Mod downloads. (Turning off will not affect since you're in solo and not in server)"
         ],
         "survival": [
@@ -373,7 +374,8 @@
             "If the map has an impossible Author time, you can use the free skip. (e.g. broken PF maps or cheated validation.)",
             "Ghosts other than personal best are not allowed but GPS is allowed (to not give club members an advantage).",
             "Cam 7 is allowed while the timer runs.",
-            "If you have already beaten Gold medal time or AT before (also on own maps), beat the respective time again. It is highly recommended to use a medals window plugin in Openplanet to see the medal times.",
+            "If you have already beaten AT before (also on own maps), beat the respective time again. It is highly recommended to use a medals window plugin in Openplanet to see the medal times.",
+            "**Predictor plugin for Openplanet is forbidden**",
             "You can skip Skin/Mod downloads. (Turning off will not affect since you're in solo and not in server)"
         ]
     }
