@@ -14,8 +14,23 @@ async function generate360(){
         map = randomItem(imagesJSON.images),
         mapNameElement = document.getElementById("backgroundMapName"),
         mapLinkElement = document.getElementById("backgroundMapLink"),
-        backgroundElement = document.getElementById("backgroundSky"),
-        mxURL = map.game == "tm2020" ? "trackmania.exchange" : "tm.mania.exchange";
+        backgroundElement = document.getElementById("backgroundSky");
+    let mxURL;
+
+    switch (map.game) {
+        case "tm2020":
+            mxURL = "trackmania.exchange";
+            break;
+        case "tm2":
+            mxURL = "tm.mania.exchange";
+            break;
+        case "sm":
+            mxURL = "sm.mania.exchange";
+            break;
+        default:
+            mxURL = "tm.mania.exchange";
+            break;
+    }
 
     mapNameElement.innerText = map.name + " by " + map.author;
     backgroundElement.setAttribute("src", imagesJSON.basePath + map.path);
