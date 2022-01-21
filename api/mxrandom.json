@@ -1,5 +1,5 @@
 {
-    "version": "1.7.4",
+    "version": "1.7.5",
     "announcements": [
         {
             "id" : 3,
@@ -13,6 +13,32 @@
         }
     ],
     "changelog": [
+        {
+            "title": "Version 1.7.5",
+            "version": "1.7.5",
+            "changes": [
+                {
+                    "title": "Time below 2min in RMS will not reset to 2min after skip",
+                    "type": "pull",
+                    "githubIssueId": 39
+                },
+                {
+                    "title": "Better map filtering on the API",
+                    "type": "issue",
+                    "githubIssueId": 41
+                },
+                {
+                    "title": "Better handle of API errors, it will not spam errors now",
+                    "type": null,
+                    "githubIssueId": null
+                },
+                {
+                    "title": "Updated logging with the new Openplanet update",
+                    "type": null,
+                    "githubIssueId": null
+                }
+            ]
+        },
         {
             "title": "Version 1.7.4",
             "version": "1.7.4",
