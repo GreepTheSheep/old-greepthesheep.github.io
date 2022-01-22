@@ -1,5 +1,5 @@
 {
-    "version": "1.7.5",
+    "version": "1.7.6",
     "announcements": [
         {
             "id" : 3,
@@ -13,6 +13,22 @@
         }
     ],
     "changelog": [
+        {
+            "title": "Version 1.7.6",
+            "version": "1.7.6",
+            "changes": [
+                {
+                    "title": "Fixes the timer end when using skip button",
+                    "type": "issue",
+                    "githubIssueId": 44
+                },
+                {
+                    "title": "Automatically Discable/Enable unauthorised plugins during RMC/RMS",
+                    "type": null,
+                    "githubIssueId": null
+                }
+            ]
+        },
         {
             "title": "Version 1.7.5",
             "version": "1.7.5",
