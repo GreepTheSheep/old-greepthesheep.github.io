@@ -21,11 +21,6 @@
                     "title": "Fixes the timer end when using skip button",
                     "type": "issue",
                     "githubIssueId": 44
-                },
-                {
-                    "title": "Automatically Discable/Enable unauthorised plugins during RMC/RMS",
-                    "type": null,
-                    "githubIssueId": null
                 }
             ]
         },
