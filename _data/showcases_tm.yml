@@ -12,3 +12,8 @@
   url: https://openplanet.nl/files/154
   description: An Openplanet plugin that displays all the maps from the ManiaExchange network.
   image: tmx_op.png
+
+- title: Open FlagRush Cup
+  url: https://challonge.com/TMFlagRushCup
+  description: A Cup on the FlagRush Gamemode, grab the flag with your team and score it to oppenent's base!
+  image: TMFlagRush.png
