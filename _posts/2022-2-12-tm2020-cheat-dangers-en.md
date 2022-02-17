@@ -69,11 +69,9 @@ He immediately asked me to contact the members of Nadeo, which I clearly did.
 
 Here is the message I gave:
 
-```
-Hello, I come to tell you that I set a cheated record on Winter 2022 - 01, in fact I was playing with a server script that allows to modify the physics of the game. But when I finished the run I saw directly on tm.io that the record was there. So I ask that this record be removed and I apologize in advance.
+`Hello, I come to tell you that I set a cheated record on Winter 2022 - 01, in fact I was playing with a server script that allows to modify the physics of the game. But when I finished the run I saw directly on tm.io that the record was there. So I ask that this record be removed and I apologize in advance.`
 
-[The moderator] told me right away that I should contact one of you to correct it as soon as possible, which I am doing.
-```
+`[The moderator] told me right away that I should contact one of you to correct it as soon as possible, which I am doing.`
 
 Then comes a discussion of why, which I wrote above.
 
@@ -91,7 +89,7 @@ I put in link some videos and clips of the cheated run. In particular 2 Twitch c
 
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/Fv7CTuucXEA" title="Spam" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Remerciements
+### Thanks
 
 I thank Nadeo for helping me solve this problem quickly, and were very understanding.
 

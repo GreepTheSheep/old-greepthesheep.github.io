@@ -68,13 +68,12 @@ Il m'a de suite demandé à ce que je contacte les membres de Nadeo, ce que j'ai
 
 Voici le message que j'ai donnée (traduit):
 
-```
-Bonjour, je viens vous dire que j'ai établi un record triché sur Winter 2022 - 01, en fait je jouais avec un script serveur qui permet de modifier la physique du jeu. Mais lorsque j'ai terminé la run j'ai vu directement sur tm.io que le record était là. Je demande donc que ce record soit retiré et je m'excuse par avance.
+`Bonjour, je viens vous dire que j'ai établi un record triché sur Winter 2022 - 01, en fait je jouais avec un script serveur qui permet de modifier la physique du jeu. Mais lorsque j'ai terminé la run j'ai vu directement sur tm.io que le record était là. Je demande donc que ce record soit retiré et je m'excuse par avance.`
 
-[le modérateur] m'a tout de suite dit que je devais contacter l'un d'entre vous afin de le corriger au plus vite, ce que je fais.
+`[le modérateur] m'a tout de suite dit que je devais contacter l'un d'entre vous afin de le corriger au plus vite, ce que je fais.`
 
-Je vous remercie
-```
+`Je vous remercie`
+
 
 Vient ensuite une discussion de pourquoi, ce que j'ai rédigé en haut.
 
