@@ -89,6 +89,10 @@ I put in link some videos and clips of the cheated run. In particular 2 Twitch c
 
 <iframe width="720" height="410" src="https://www.youtube.com/embed/Fv7CTuucXEA" title="Spam" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### Side notes
+
+I also gave my biggest apologies to SparklingW for destroying the Getting Over It map in the same way. Of course showing that there is no script check behind it. We have also contacted Nadeo to remove it.
+
 ### Thanks
 
 I thank Nadeo for helping me solve this problem quickly, and were very understanding.
