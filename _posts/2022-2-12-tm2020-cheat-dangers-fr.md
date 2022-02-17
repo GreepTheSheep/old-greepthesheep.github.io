@@ -87,9 +87,9 @@ A l'heure ou j'écrit ce rapport, le compte est bien banni et le record est supp
 
 Je met en lien quelques vidéos et clips de la run cheatée. Notamment 2 clips Twitch, celle de Birdie auquel il réagit sans donner son avis, et celle de Spammiej qui donne son avis très rapidement.
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/uAJI_I-BUzM" title="Birdie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="720" height="410" src="https://www.youtube.com/embed/uAJI_I-BUzM" title="Birdie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/Fv7CTuucXEA" title="Spam" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="720" height="410" src="https://www.youtube.com/embed/Fv7CTuucXEA" title="Spam" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Remerciements
 

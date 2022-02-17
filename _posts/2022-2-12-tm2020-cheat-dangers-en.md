@@ -85,9 +85,9 @@ At the time of writing this report, the account is well banned and the record is
 
 I put in link some videos and clips of the cheated run. In particular 2 Twitch clips, the one of Birdie to which he reacts without giving his opinion, and the one of Spammiej who gives his opinion very quickly.
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/uAJI_I-BUzM" title="Birdie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="720" height="410" src="https://www.youtube.com/embed/uAJI_I-BUzM" title="Birdie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/Fv7CTuucXEA" title="Spam" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="720" height="410" src="https://www.youtube.com/embed/Fv7CTuucXEA" title="Spam" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Thanks
 
