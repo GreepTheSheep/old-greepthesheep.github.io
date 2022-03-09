@@ -1,0 +1,106 @@
+---
+layout: default
+---
+
+<div id="user_info">
+    <h2>User Info:</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <img width="200px">
+        </div>
+        <div class="col-md-8">
+            <strong><span id="name"></span></strong>
+            <br />
+            <p id="description"></p>
+            <span id="followers"></span>
+        </div>
+
+        <a class="twitter-timeline"></a>
+    </div>
+</div>
+
+<div id="actual_epi">
+    <h2>Actual Episode Showcased:</h2>
+    <span id="title"></span>
+    <span id="identifier" style="color: grey;"></span>
+    <br />
+    <span id="frame"></span>
+</div>
+
+<h3>List of upcoming episodes:</h3>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Identifier</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+
+<script>
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector('table.table').classList.add('table-dark');
+    }
+
+    (async () => {
+        const user_json = await fetch('{{ page.api_domain }}/user').then(res => res.json());
+        const videos_json = await fetch('{{ page.api_domain }}/all').then(res => res.json());
+        const actual_json = await fetch('{{ page.api_domain }}/actual').then(res => res.json());
+
+        let img = document.querySelector('#user_info .col-md-4 img');
+        img.src = user_json.profile_image_url_https.replace('_normal', '_400x400');
+        img.alt = user_json.screen_name;
+
+        document.querySelector('#user_info .col-md-8 #name').innerText = user_json.name;
+        document.querySelector('#user_info .col-md-8 #description').innerText = user_json.description;
+        document.querySelector('#user_info .col-md-8 #followers').innerText = `${user_json.followers_count} followers`;
+
+
+        let timeline = document.querySelector('#user_info .twitter-timeline');
+        timeline.href = `https://twitter.com/${user_json.screen_name}?ref_src=twsrc%5Etfw`;
+        timeline.innerText = `Tweets by ${user_json.screen_name}`;
+        timeline.setAttribute('data-height', '400');
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            timeline.setAttribute('data-theme', 'dark');
+        }
+
+        document.querySelector('#actual_epi #title').innerText = actual_json.name;
+        document.querySelector('#actual_epi #identifier').innerText = `(identifier: ${actual_json.identifier})`;
+        document.querySelector('#actual_epi #frame').innerText = `Frame ${actual_json.frame} out of ${actual_json.totalFrames}`;
+
+        let tbody = document.querySelector('table.table tbody');
+
+        videos_json.forEach((video, index) => {
+            video.num = index;
+        });
+
+        let actual_video = videos_json.find(video => video.identifier === actual_json.identifier);
+        let actual_index = videos_json.indexOf(actual_video);
+        let below_actual = videos_json.slice(actual_index + 1);
+        let above_actual = videos_json.slice(0, actual_index);
+        let sorted = [...below_actual, ...above_actual];
+
+        sorted.forEach(video => {
+            let tr = document.createElement('tr');
+            let td_num = document.createElement('td');
+            let td_id = document.createElement('td');
+            let td_name = document.createElement('td')
+
+            td_name.innerText = video.name;
+            td_id.innerText = video.identifier;
+            td_num.innerText = video.num;
+
+            tr.appendChild(td_num);
+            tr.appendChild(td_id);
+            tr.appendChild(td_name);
+
+            tbody.appendChild(tr);
+        });
+
+    })();
+</script>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

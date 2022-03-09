@@ -1,0 +1,60 @@
+---
+layout: default
+title: Frame In Order Project
+permalink: /frameinorder/
+---
+
+<div>
+    <h2>Frame In Order Project</h2>
+    <p>This project created for fun is to be able to send each image of a movie/episode of a series on Twitter.</p>
+    <p>Currently, I have {{ site.data.showcases_frameInOrder | size }} accounts that sends a frame every 5 minutes.</p>
+    <p>If you want to run one for yourself, <a href="https://github.com/GreepTheSheep/node-twitter-every-frames-in-order" target="_blank">the source code is available here</a>.</p>
+    <p>You can see my progress by each account here</p>
+</div>
+
+<div class="works">
+    {% for showcase in site.data.showcases_frameInOrder %}
+        <div id="row-{{ showcase.title }}" class="row">
+            <div class="col-md-4" hidden="true">
+                <a href="{{ site.baseurl }}/frameinorder/{{ showcase.permalink }}">
+                    <img id="img-{{ showcase.title }}" alt="{{ showcase.title }}" width="200px">
+                </a>
+            </div>
+            <div class="col-md-8">
+                <h3>
+                    <a href="{{ site.baseurl }}/frameinorder/{{ showcase.permalink }}">{{ showcase.title }}</a>
+                    <a class="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                </h3>
+                <p></p>
+            </div>
+        </div>
+
+        <script>
+            (async () => {
+                const user_json = await fetch('{{ showcase.api_domain }}/user').then(res => res.json());
+                const actual_json = await fetch('{{ showcase.api_domain }}/actual').then(res => res.json());
+
+                let img_div = document.querySelector('#row-{{ showcase.title }} .col-md-4');
+                let description_p = document.querySelector('#row-{{ showcase.title }} .col-md-8 p');
+                let img = document.querySelector('#row-{{ showcase.title }} .col-md-4 a img');
+                let twitter_a = document.querySelector('#row-{{ showcase.title }} .col-md-8 h3 a.twitter');
+                img.src = user_json.profile_image_url_https.replace('_normal', '_400x400');
+                img_div.hidden = false;
+                twitter_a.href = `https://twitter.com/${user_json.screen_name}`;
+
+                description_p.innerText =  `${user_json.followers_count} followers\n\nActual screening:\n${actual_json.name}\nFrame ${actual_json.frame} out of ${actual_json.totalFrames}`;
+            })();
+        </script>
+    {% endfor %}
+</div>
+
+<style>
+.twitter {
+    color: lightblue !important;
+}
+@media screen and (prefers-color-scheme: light) {
+    .twitter {
+        color: darkblue !important;
+    }
+}
+</style>
