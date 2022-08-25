@@ -1,7 +1,7 @@
-- title: Mail
-  link: mailto:matthieu.dehon@laposte.net
-  fa-icon: envelope-o
-
 - title: Discord
   link: https://greep.gq/discord
   fa-icon: discord
+
+- title: Twitter
+  link: https://twitter.com/GreepTheSheep
+  fa-icon: twitter
