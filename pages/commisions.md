@@ -2,7 +2,7 @@
 layout: page
 title: Openplanet plugin commissions
 permalink: /commisions/
-available_slots: 2
+available_slots: 1
 price: 20
 ---
 
