@@ -4,7 +4,14 @@ title: Openplanet plugin commissions
 permalink: /commisions/
 available_slots: 1
 price: 20
+pause: true
 ---
+
+{% if page.pause %}
+
+**My commissions for [Openplanet](https://openplanet.dev/) plugins are actually paused.** Please keep an eye on this page if you're looking to commission me, as I will be updating it periodically if I have open slots.
+
+{% else %}
 
 I am doing [Openplanet](https://openplanet.dev/) plugin commissions! Please keep an eye on this page if you're looking to commission me, as I will be updating it periodically if I have open slots.
 
@@ -17,6 +24,8 @@ I am doing [Openplanet](https://openplanet.dev/) plugin commissions! Please keep
 
 <i class="fa fa-discord-alt"></i>
 You can also message me on Discord at **Greep#3022**.
+
+{% endif %}
 
 # Details
 I will make a plugin for you. You just have to tell me what you're looking for, and I will be able to advise on what's possible, what's impossible, or what requires extra effort. We'll discuss the possibilities.
