@@ -4,16 +4,21 @@
   image: tmio.png
 
 - title: ManiaExchange Randomizer
-  url: https://openplanet.nl/files/124
+  url: https://openplanet.dev/plugin/mxrandom
   description: An Openplanet plugin used extensively during the FlinkTM Random Map Challenge. The goal is to take a random map of the Trackmania game from the TrackmaniaExchange site and play it directly in the game.
   image: tmx_rand.png
 
 - title: ManiaExchange Menu
-  url: https://openplanet.nl/files/154
+  url: https://openplanet.dev/plugin/maniaexchange
   description: An Openplanet plugin that displays all the maps from the ManiaExchange network.
   image: tmx_op.png
 
+- title: Speedrun tool
+  url: https://openplanet.dev/plugin/speedrun
+  description: A Speedrun Tool for Trackmania 2020
+  image: tmSpeedruns.png
+
 - title: Open FlagRush Cup
-  url: https://liquipedia.net/trackmania/index.php?title=FlagRush_Open_Cup_2
+  url: https://liquipedia.net/trackmania/FlagRush_Anniversary_Cup
   description: A Cup on the FlagRush Gamemode, grab the flag with your team and score it to oppenent's base!
   image: TMFlagRush.png

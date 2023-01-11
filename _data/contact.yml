@@ -2,6 +2,6 @@
   link: https://greep.gq/discord
   fa-icon: discord
 
-- title: Twitter
-  link: https://twitter.com/GreepTheSheep
-  fa-icon: twitter
+- title: Mail
+  link: mailto://greep@greep.fr
+  fa-icon: envelope

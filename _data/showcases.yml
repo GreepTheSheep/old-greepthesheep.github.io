@@ -7,13 +7,3 @@
   url: /frameinorder
   description: This project created for fun is to be able to send each image of a movie/episode of a series on Twitter.
   image: frames.png
-
-- title: Arendelle Odyssey
-  url: https://arendelleodyssey.com
-  description: Arendelle Odyssey is a massive collaborative documentary project that seeks to chronicle the state of the Frozen fandom from the drop of the first Frozen II teaser until present day. I worked mainly on the website and on the Discord management bot
-  image: ao.png
-
-- title: Android Messages Desktop
-  url: /2021/07/android-messages/
-  description: Android Messages is an app linking your phone and your computer, with this, you can receive instantly SMS/MMS of your phone to your computer, laptop or any other devices.
-  image: android-messages.png
