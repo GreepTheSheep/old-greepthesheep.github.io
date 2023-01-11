@@ -12,13 +12,14 @@ async function fetch360ImagesJSON(){
 async function generate360(){
     const imagesJSON = await fetch360ImagesJSON(),
         game = Object.keys(imagesJSON),
-        map = randomItem(imagesJSON[randomItem(game)]),
+        selectedGame = randomItem(game),
+        map = randomItem(imagesJSON[selectedGame]),
         mapNameElement = document.getElementById("backgroundMapName"),
         mapLinkElement = document.getElementById("backgroundMapLink"),
         backgroundElement = document.getElementById("backgroundImg");
     let mxURL;
 
-    switch (game) {
+    switch (selectedGame) {
         case "tm2020":
             mxURL = "trackmania.exchange";
             break;
