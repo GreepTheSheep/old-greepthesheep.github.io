@@ -3,7 +3,7 @@ function randomItem(array){
 }
 
 async function fetch360ImagesJSON(){
-    const res = await fetch("/api/trackmania360images.json"),
+    const res = await fetch("/api/trackmaniabackgrounds.json"),
         json = await res.json();
 
     return json;
@@ -11,13 +11,14 @@ async function fetch360ImagesJSON(){
 
 async function generate360(){
     const imagesJSON = await fetch360ImagesJSON(),
-        map = randomItem(imagesJSON.images),
+        game = Object.keys(imagesJSON),
+        map = randomItem(imagesJSON[randomItem(game)]),
         mapNameElement = document.getElementById("backgroundMapName"),
         mapLinkElement = document.getElementById("backgroundMapLink"),
-        backgroundElement = document.getElementById("backgroundSky");
+        backgroundElement = document.getElementById("backgroundImg");
     let mxURL;
 
-    switch (map.game) {
+    switch (game) {
         case "tm2020":
             mxURL = "trackmania.exchange";
             break;
@@ -33,13 +34,13 @@ async function generate360(){
     }
 
     mapNameElement.innerText = map.name + " by " + map.author;
-    backgroundElement.setAttribute("src", imagesJSON.basePath + map.path);
+    backgroundElement.setAttribute("src", map.url);
     mapLinkElement.setAttribute("href", "https://"+mxURL+"/maps/"+map.mxID);
 }
 
 init();
 
 function init(){
-    document.getElementById("refresh360").addEventListener("click", generate360);
+    document.getElementById("refreshbg").addEventListener("click", generate360);
     generate360();
 }
