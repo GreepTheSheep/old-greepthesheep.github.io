@@ -17,6 +17,11 @@
   url: https://openplanet.dev/plugin/speedrun
   description: A Speedrun Tool for Trackmania 2020
   image: tmSpeedruns.png
+  
+- title: Cup Of Another Day
+  url: https://coad.greep.fr
+  description: A Knockout competiton on random Tracks Of The Day. Every Tuesdays at 20:00 CEST
+  image: coad.png
 
 - title: Open FlagRush Cup
   url: https://liquipedia.net/trackmania/FlagRush_Anniversary_Cup
